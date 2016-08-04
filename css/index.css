@@ -1,0 +1,110 @@
+html, body{
+	margin:0px;
+}
+
+*{
+	box-sizing:border-box;
+	margin:0px;
+}
+
+.full-width{
+	width:100%;
+}
+
+.full-view{
+	height:100vh;
+}
+
+#landing{
+	background:url(../images/giphy.gif);
+	background-size:cover;
+
+
+}
+
+#landing button{
+	position:absolute;
+	bottom:5%;
+	border-radius:100%;
+}
+
+
+#landing-menu{
+	position:absolute;
+	bottom:10%;
+	font-family:'iceland';
+	
+}
+
+#landing-menu div{
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+}
+
+#landing-menu div:hover{
+	background:white;
+}
+
+.menu-item{
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	text-decoration:none;
+  	color:white;
+
+}
+
+.menu-item:hover{
+	background:white;
+	color:#B32626;
+
+}
+
+.page-head{
+	font-family:'Abel';
+	font-size:5.9vh;
+}
+
+.text-body{
+	font-size:2.5vh;
+	max-width:70vw;
+	text-align:justify;
+	margin:0 auto;
+	margin-top:50px;
+	font-family:'Roboto';
+}
+
+.bottom-cut{
+	border-bottom:solid #DDDDDD 1px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row div{
+	display:inline-block;
+
+	margin:0px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.padding-enabled{
+	padding:30px;
+}
