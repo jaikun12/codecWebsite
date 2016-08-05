@@ -22,10 +22,10 @@ html, body{
 
 }
 
-#landing button{
-	position:absolute;
-	bottom:5%;
-	border-radius:100%;
+#landing img{
+	margin-top:90vh;
+	height:5vh;
+	width:2vw;
 }
 
 
