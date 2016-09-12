@@ -7,6 +7,29 @@ html, body{
 	margin:0px;
 }
 
+#hacking-div a{
+	color:#7C0606;
+	text-decoration:none;
+	border:solid white 2px;
+	padding:5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+}
+
+#hacking-div a:hover{
+	border:solid #7C0606 2px;
+}
+
+h2{
+	font-family:'Open Sans';
+	font-weight:400;
+}
+.padding-enabled{
+	padding:30px;
+}
+
 .full-width{
 	width:100%;
 }
@@ -32,7 +55,7 @@ html, body{
 #landing-menu{
 	position:absolute;
 	bottom:10%;
-	font-family:'iceland';
+	font-family:'Roboto';
 	
 }
 
@@ -64,32 +87,134 @@ html, body{
 }
 
 .page-head{
-	font-family:'Abel';
+	font-family:'Open Sans';
 	font-size:5.9vh;
+	font-weight:200;
 }
 
 .text-body{
-	font-size:2.5vh;
+	font-size:2.3vh;
 	max-width:70vw;
 	text-align:justify;
 	margin:0 auto;
-	margin-top:50px;
-	font-family:'Roboto';
+	margin-top:10px;
+	font-family:'Open Sans';
+	line-height:2;
 }
 
+.excerpt{
+	margin-top:25px;
+	text-align:right;
+	float:right;
+	font-size:2vh;
+	text-decoration:italic;
+}
 .bottom-cut{
 	border-bottom:solid #DDDDDD 1px;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
+
+.container{
+	max-width:70%;
+	margin:0 auto;
 }
 
-.row div{
-	display:inline-block;
+#about-us{
+	min-height:70vh;
+	background:url(../images/hacking.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+	padding:0;
+}
 
-	margin:0px;
+#hacking-div{
+	min-height:100vh;
+	overflow:auto;
+	}
+#goal-div{
+	min-height:60vh;
+	overflow:auto;
+	padding:0;
+	padding-top:50px;
+	padding-bottom:75px;
+}
+
+#eb-div{
+	padding:0;
+	background:url(../images/ebphoto.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+}
+
+#goal-group{
+	margin-top:50px;
+}
+
+.content-overlay{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	padding:50px;
+	min-height:70vh;
+}
+
+.content-overlay p{
+	text-align:center;
+}
+
+.hollow-btn{
+	position:relative;
+	text-decoration:none;
+	color:white;
+	background:none;
+	border:solid white 2px;
+	padding: 10px 20px 10px 20px;
+	margin-top:50px;
+	font-size:2.6vh;
+	font-family:'Open Sans';
+	-o-transition:.25s;
+  	-ms-transition:.25s;
+  	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+}
+
+.hollow-btn:hover{
+	border:solid #8E0404 2px;
+	background:rgba(255,255,255,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+h3{
+	font-family:'Open Sans';
+	font-weight:600;
+}
+
+.col-group{
+	width:80%;
+	margin:0 auto;
+	font-family:'Open Sans';
+	
+
+}
+
+.col-group-item{
+	float:left;
+}
+
+.group-text{
+	margin-top:1em;
+	max-width:80%;
+	line-height:1.5;
+	font-family:'Open Sans';
+	color:#585858;
 }
 
 .col-1 {width: 8.33%;}
@@ -105,6 +230,3 @@ html, body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.padding-enabled{
-	padding:30px;
-}
